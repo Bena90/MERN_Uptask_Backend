@@ -76,3 +76,9 @@ io.on('connection', (socket) => {
         socket.to(project).emit('stateChanged', task)
     })
 })
+
+
+
+ /*   //"start": "node index.js",
+    //"dev": "nodemon index.js",
+    //"test": "echo \"Error: no test specified\" && exit 1"*/
